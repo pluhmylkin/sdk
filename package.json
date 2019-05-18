@@ -1,0 +1,33 @@
+{
+  "name": "sdk",
+  "version": "0.0.1",
+  "description": "Payments service with JSON API. API methods require authentication by passing a bearer token (https://tools.ietf.org/html/rfc6750). ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.ts || true",
+    "watch": "nodemon --exec ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pluhmylkin/sdk.git"
+  },
+  "author": "Andrei Pliukhaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pluhmylkin/sdk/issues"
+  },
+  "homepage": "https://github.com/pluhmylkin/sdk#readme",
+  "dependencies": {
+    "@types/node": "12.0.2",
+    "nodemon": "1.19.0",
+    "prettier": "1.17.1",
+    "request": "^2.88.0",
+    "request-promise": "4.2.4",
+    "ts-loader": "6.0.0",
+    "ts-node": "8.1.0",
+    "tslint": "5.16.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "3.4.5"
+  }
+}
