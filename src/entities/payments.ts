@@ -14,7 +14,7 @@ export default class Payments {
   }
 
   /**
-   * @description Returns the list of existing payments.t
+   * @description Returns the list of existing payments
    * @returns list of payments
    */
   public list(): IPayment[] {
